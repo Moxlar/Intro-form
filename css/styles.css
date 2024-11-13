@@ -1,3 +1,15 @@
+/* Custom-property */
+:root{
+    --body-bg:#E7E7E7;
+    --green:#4DC490;
+    --purple:#655AF2;
+    --red:#F03535;
+    --text-color:#000;
+}
+
+
+
+
 /* Global */
 html{
     box-sizing: border-box;
@@ -16,7 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    color: #222;
+    color: var(--text-color);
     background-color: #fff;
 }
 img{
